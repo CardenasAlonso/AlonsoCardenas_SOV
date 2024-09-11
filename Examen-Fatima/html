@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Bien del Saber</title>
 </head>
 
@@ -11,7 +12,13 @@
 
     <h1><strong>Bien del Saber</strong></h1>
 
-    <p>En esta Biblioteca digital encontraras distintos libros de tu preferencia.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora fuga at odit, molestiae a minima officia,
+        debitis nobis rem culpa sit sint ipsum corrupti porro tenetur suscipit sunt fugit distinctio laboriosam labore.
+        Harum obcaecati aperiam eos necessitatibus incidunt accusantium praesentium at nulla in perspiciatis consectetur
+        soluta sit dolore cum autem fuga illum optio blanditiis quibusdam voluptatibus, iure quasi. Molestias laudantium
+        facilis eius aut quo atque, accusamus corporis doloribus iusto aperiam alias, hic est distinctio facere saepe
+        quaerat tempora excepturi numquam optio reprehenderit autem amet fugiat. Ea dolore repellendus asperiores
+        corrupti at aliquid eaque quisquam officiis sunt cumque, ipsa minima!</p>
     <p>Entre los generos mas destacados tenemos : </p>
 
     <div class="ficcion">
@@ -27,7 +34,7 @@
             la ficción invita a los lectores a escapar de la realidad por un momento y disfrutar de historias llenas de
             emociones y aventuras.</p>
 
-        <img src="imagenes/los_mejores_libros_de_ciencia_ficcion_54256_600.png" alt=""><br>
+        <img id="img-ficcion" src="imagenes/ficcion-3libros.png" alt=""><br>
         <br>
         <button>Ver mas...</button>
 
@@ -43,7 +50,7 @@
             una
             excelente opción para aquellos que buscan aprender y ampliar su comprensión del mundo que los rodea.</p>
 
-        <img src="imagenes/catalogo.png" alt=""><br>
+        <img src="imagenes/no-ficcion-libros.png" alt=""><br>
         <br>
         <button>Ver mas...</button>
 
@@ -60,7 +67,7 @@
             metas.
         </p>
 
-        <img src="imagenes/autoajuda.png" alt=""><br>
+        <img src="imagenes/novetats-autoajuda.png" alt=""><br>
         <br>
         <button>Ver mas...</button>
 
@@ -83,18 +90,51 @@
             </tr>
 
             <tr>
-                <td><img src="imagenes/ficcion.png" alt=""></td>
-                <td><img src="imagenes/no-ficcion2.png" alt=""></td>
-                <td><img src="imagenes/auto-ayuda.png" alt=""></td>
+                <td><img src="imagenes/ficcion-1.png" alt=""></td>
+                <td><img src="" alt=""></td>
+                <td><img src="imagenes/auto-ayuda-1.png" alt=""></td>
             </tr>
         </table>
     </div>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ECRb_sAPTzg?si=TycUkfpn16BhKfJh"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <footer>
+
+        <div class="container">
+            <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+                <br>
+                <br>
+                <label for="calendario">Calendario</label>
+                <input type="datetime-local" name="calendario">
+                <br>
+                <input type="submit">
+
+
+            </form>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="video">
+            <iframe height="400" width="550" src="https://www.youtube.com/embed/ECRb_sAPTzg?si=TycUkfpn16BhKfJh"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+
+
+    </footer>
 </body>
 
 </html>
