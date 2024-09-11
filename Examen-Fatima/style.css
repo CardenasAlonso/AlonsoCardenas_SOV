@@ -1,11 +1,58 @@
-table{
-    border: 1px solid black;
-    background-color: aqua;
+body{
+    background-color: white;
+    color: black;
+    background-image: url("imagenes/fondo.png") center no-repeat;
+    background-size: cover;
+
+    height: 100%;
 }
 
-table.tr.td{
-    border: 1px solid black;
-    background-color: aqua;
+h1 {
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+}
 
+p {
+    font-size: 20px; 
+}
 
+.ficcion {
+    text-align: center;
+}
+ /*
+.video {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+*/
+.no-ficcion {
+    text-align: center;
+}
+
+.auto-ayuda {
+    text-align: center;
+}
+
+.container {
+    font-size: 25px;
+}
+
+footer{
+    color: black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.tabla {
+    text-align: center;
+    border-radius: 20px;
+    border: 10px;
+}
+
+.tabla.tr {
+    border: 10px;
 }
